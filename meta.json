@@ -1,0 +1,25 @@
+{
+  "prompts": {
+    "name": {
+      "type": "string",
+      "required": true,
+      "label": "Project name"
+    },
+    "description": {
+      "type": "string",
+      "required": true,
+      "label": "Project description",
+      "default": "a multiple page project bundled with webpack"
+    },
+    "author": {
+      "type": "string",
+      "label": "Author"
+    },
+    "license": {
+      "type": "string",
+      "label": "License",
+      "default": "MIT"
+    }
+  },
+  "completeMessage": "To get started:\n\n  cd {{destDirName}}\n  yarn install\n  yarn run dev"
+}
